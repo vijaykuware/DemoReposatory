@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[UserID is Matching , test case is passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-12-14T23:00:13 IST" name="Default suite" finished-at="2021-12-14T23:00:51 IST" duration-ms="38197">
+    <groups>
+    </groups>
+    <test started-at="2021-12-14T23:00:13 IST" name="Default test" finished-at="2021-12-14T23:00:51 IST" duration-ms="38197">
+      <class name="testClasses.Kite_Zerodha_Test">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testClasses.Kite_Zerodha_Test@209da20d]" started-at="2021-12-14T23:00:13 IST" name="launchBrowser" finished-at="2021-12-14T23:00:33 IST" duration-ms="19756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="enterCredentials()[pri:0, instance:testClasses.Kite_Zerodha_Test@209da20d]" started-at="2021-12-14T23:00:33 IST" name="enterCredentials" finished-at="2021-12-14T23:00:42 IST" duration-ms="9840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCredentials -->
+        <test-method signature="validate_UserID()[pri:0, instance:testClasses.Kite_Zerodha_Test@209da20d]" started-at="2021-12-14T23:00:42 IST" name="validate_UserID" finished-at="2021-12-14T23:00:47 IST" duration-ms="4961" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[UserID is Matching , test case is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_UserID -->
+        <test-method is-config="true" signature="loggingOut()[pri:0, instance:testClasses.Kite_Zerodha_Test@209da20d]" started-at="2021-12-14T23:00:47 IST" name="loggingOut" finished-at="2021-12-14T23:00:48 IST" duration-ms="1031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggingOut -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:testClasses.Kite_Zerodha_Test@209da20d]" started-at="2021-12-14T23:00:49 IST" name="closingBrowser" finished-at="2021-12-14T23:00:51 IST" duration-ms="2296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- testClasses.Kite_Zerodha_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
